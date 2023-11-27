@@ -1,0 +1,26 @@
+
+
+-create a html document for how to play
+-make an exit for players that do not wanna play anymore(nha)
+-make a credits (HTML?)
+
+-create gameOver scene : done
+-change decrypting to be alittle bit easier (only numbers and a-z & A-Z) :FIXED
+-fix texture bug : DONE :)
+-in ad, add hot turtles in your area: done
+
+Diffrerent kind of hacks
+-Ads : done (Shall not be able to lose just irritating)
+-Crypate : done (can lose. YES)
+-moveing mf : done (can lose. YES)
+-Filecheacker : done (can lose. YES)
+-Mouse movement : done (Shall not be able to lose just irritating)
+-iritatingShit : Done (Shall not be able to lose just irritating)
+
+-create main menu(done)
+-create a slider(done)
+-remove file after filechecker is done (done)
+-create begining scene(done) //need lia audio
+-add music(done)
+-add settings in file(done)
+-create winning scene(done)

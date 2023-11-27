@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\VirtualPrograms">
+      <UniqueIdentifier>{9504a846-27ac-4c85-85d6-822f5743fa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{44470f02-a621-4571-855b-e73ff0830d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes\GameScene">
+      <UniqueIdentifier>{ad8e975c-001f-4133-9bf0-c279c4baa06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes\GameScene\VirtualPrograms">
+      <UniqueIdentifier>{ded928a6-491e-41eb-91a9-81d603396ce9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeltaTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualPrograms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixRainDrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adProgram.cpp">
+      <Filter>Source Files\VirtualPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptateProgram.cpp">
+      <Filter>Source Files\VirtualPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCheckerChangerProgram.cpp">
+      <Filter>Source Files\VirtualPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMovementProgram.cpp">
+      <Filter>Source Files\VirtualPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingProgram.cpp">
+      <Filter>Source Files\VirtualPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingWindowProgram.cpp">
+      <Filter>Source Files\VirtualPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LosingScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinningScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeltaTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualPrograms.h">
+      <Filter>Header Files\Scenes\GameScene\VirtualPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="adProgram.h">
+      <Filter>Header Files\Scenes\GameScene\VirtualPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptateProgram.h">
+      <Filter>Header Files\Scenes\GameScene\VirtualPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingProgram.h">
+      <Filter>Header Files\Scenes\GameScene\VirtualPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCheckerChangerProgram.h">
+      <Filter>Header Files\Scenes\GameScene\VirtualPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixRainDrop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMovementProgram.h">
+      <Filter>Header Files\Scenes\GameScene\VirtualPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingWindowProgram.h">
+      <Filter>Header Files\Scenes\GameScene\VirtualPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Scenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="LosingScreen.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="WinningScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
