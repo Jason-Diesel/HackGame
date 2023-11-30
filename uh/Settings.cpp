@@ -28,8 +28,8 @@ void Settings::loadDefaultSettings()
 		this->difficulty = Difficulty::EASY;
 
 		this->music = true;
-		this->musicVolume = 1;
-		this->masterVolume = 1;
+		this->musicVolume = 50;
+		this->masterVolume = 50;
 		saveSettings();
 	}
 }

@@ -34,8 +34,8 @@ void IntroScene::init()
     discordMusic.setVolume(Settings::getInstance().masterVolume);
     discordMusic.play();
 
-    DiscordRant1.setBuffer(rm->getSoundBuffer("../Audio/TestAudio/didYouJustTrrToHangUpOnMe.ogg"));
-    DiscordRant2.setBuffer(rm->getSoundBuffer("../Audio/TestAudio/eyYourComputerJustGotHacked.ogg"));
+    DiscordRant1.setBuffer(rm->getSoundBuffer("../Audio/LiaAudio/Hang_up.ogg"));
+    DiscordRant2.setBuffer(rm->getSoundBuffer("../Audio/LiaAudio/Hacked.ogg"));
     DiscordRant1.setVolume(Settings::getInstance().masterVolume);
     DiscordRant2.setVolume(Settings::getInstance().masterVolume);
 }

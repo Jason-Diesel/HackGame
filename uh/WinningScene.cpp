@@ -22,7 +22,8 @@ void WinningScene::init()
     woman.setPosition(sf::Vector2f(17, 40));
     background = rm->getSprite("../Textures/profileBorder.png");
 
-    youDidItSound.openFromFile("../Audio/TestAudio/didYouJustTrrToHangUpOnMe.ogg");//TODO : change this to lia
+    youDidItSound.openFromFile("../Audio/LiaAudio/Winning.ogg");//TODO : change this to lia
+    youDidItSound.setVolume(Settings::getInstance().masterVolume);
     youDidItSound.setLoop(false);
     youDidItSound.play();
 
